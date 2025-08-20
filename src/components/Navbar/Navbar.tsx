@@ -16,8 +16,8 @@ const Navbar = () => {
     // Navbar Links
     const links = [
         { href: "/", label: "Home" },
+        { href: "/loans", label: "Loans" },
         { href: "/about", label: "About" },
-        { href: "/services", label: "Services" },
         { href: "/contact", label: "Contact" },
     ];
 
@@ -43,7 +43,7 @@ const Navbar = () => {
             </nav>
 
             {/* Apply Now Button */}
-            <Link href="/apply" id={style.applyButton}>Apply Now</Link>
+            <Link href="/apply" id={style.applyButton}>Apply Loan</Link>
         </header>
     );
 }

@@ -3,7 +3,7 @@
  * Author: Yash Balotiya
  * Description: Styles for the Navbar component
  * Created on: 19/08/2025
- * Last Modified: 19/08/2025
+ * Last Modified: 20/08/2025
 */
 
 /* Navbar styles */
@@ -17,6 +17,7 @@
     position: fixed;
     left: 0;
     top: 0;
+    background-color: rgba(255, 255, 255, 0.9);
     z-index: 100;
 }
 

@@ -3,7 +3,7 @@
  * Author: Yash Balotiya
  * Description: Main Layout component for the application. Can be consider it as Index Page of the Application
  * Created on: 19/08/2025
- * Last Modified: 19/08/2025
+ * Last Modified: 20/08/2025
 */
 
 // Importing required modules & libraries
@@ -11,6 +11,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar/Navbar";
+import SmoothScroll from "@/components/SmoothScroll";
 
 // Creating font variables
 const geistSans = Geist({
@@ -42,8 +43,15 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body className={`${geistSans.variable} ${geistMono.variable}`}>
+                {/* Navbar component for navigation */}
                 <Navbar />
-                {children}
+
+                {/* Smooth scrolling container */}
+                <SmoothScroll>
+
+                    {/* Main Content */}
+                    {children}
+                </SmoothScroll>
             </body>
         </html>
     );
