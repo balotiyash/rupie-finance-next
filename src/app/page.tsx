@@ -12,6 +12,7 @@ import LoanSteps from "@/components/HomePage/LoanSteps";
 // import styles from "./page.module.css";
 // import Link from "next/link";
 import TypesSection from "@/components/HomePage/TypesSection";
+import WhyRFSection from "@/components/HomePage/WhyRFSection";
 
 // Main Page Component
 const page = () => {
@@ -25,6 +26,9 @@ const page = () => {
 
             {/* Loan Steps Section */}
             <LoanSteps />
+
+            {/* Why Choose Us Section */}
+            <WhyRFSection />
         </main>
     );
 }

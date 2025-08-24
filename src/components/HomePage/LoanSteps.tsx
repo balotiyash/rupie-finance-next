@@ -19,8 +19,8 @@ const LoanSteps = () => {
         "Sign up using your mobile number.",
         "Enter your basic information & check eligibility.",
         "Verify your profile by uploading KYC documents.",
-        "Provide your bank account details.",
         "Choose your loan amount and tenure.",
+        'Sign the agreement by OTP',
         "Get the loan disbursed directly into your bank account.",
     ];
 
@@ -56,7 +56,7 @@ const LoanSteps = () => {
     // Render component
     return (
         // Main container
-        <div className={styles.container} id="howtoapply">
+        <section className={styles.container} id="howtoapply">
             {/* Heading */}
             <h2 className={styles.heading}>How to get Loan on</h2>
             <h1 id={styles.rupieFinanceH1}>Rupie Finance</h1>
@@ -101,7 +101,7 @@ const LoanSteps = () => {
                     </ul>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 
