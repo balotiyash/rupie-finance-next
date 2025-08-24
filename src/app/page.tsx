@@ -9,6 +9,7 @@
 // Importing Required Modules & Libraries
 import CheckCibilSection from "@/components/HomePage/CheckCibilSection";
 import HeroSection from "@/components/HomePage/HeroSection";
+import ImpactSection from "@/components/HomePage/ImpactSection";
 import LoanSteps from "@/components/HomePage/LoanSteps";
 // import styles from "./page.module.css";
 // import Link from "next/link";
@@ -33,6 +34,9 @@ const page = () => {
 
             {/* Check Cibil Score Section */}
             <CheckCibilSection />
+
+            {/* Impact Section */}
+            <ImpactSection />
         </main>
     );
 }
