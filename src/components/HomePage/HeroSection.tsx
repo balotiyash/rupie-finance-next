@@ -3,7 +3,7 @@
  * Author: Yash Balotiya
  * Description: This file contains the HeroSection component for the homepage.
  * Created on: 20/08/2025
- * Last Modified: 20/08/2025
+ * Last Modified: 24/08/2025
 */
 
 'use client';
@@ -22,7 +22,7 @@ const HeroSection = () => {
     const [fadeState, setFadeState] = useState(styles.fadeIn);
 
     // Array of words to rotate
-    const rotatingWords = ["easy", "reliable", "fast", "secure", "flexible"];
+    const rotatingWords = ["SIMPLE", "QUICK", "SAFELY", "SECURE"];
 
     // Change word every 2 seconds
     useEffect(() => {

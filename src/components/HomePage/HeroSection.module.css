@@ -3,14 +3,14 @@
  * Author: Yash Balotiya
  * Description: This file contains the styles for the HeroSection component.
  * Created on: 20/08/2025
- * Last Modified: 20/08/2025
+ * Last Modified: 24/08/2025
 */
 
 /* Hero Section */
 .heroSection {
     position: relative;
     width: 100%;
-    padding: 100px 0;
+    padding: 50px 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -75,10 +75,11 @@
 
 /* Flying Notes */
 .flyingNotesImage {
-    width: 20%;
+    width: 25%;
     opacity: 0.8;
-    animation: float 10s infinite ease-in-out;
+    animation: float 5s infinite ease-in-out;
     align-self: flex-end;
+    padding: 0 50px;
 }
 
 /* Add delay to second image */
@@ -88,7 +89,7 @@
 
 .flyingNotesImage:last-child {
     align-self: flex-start;
-    animation-delay: 5s;
+    animation-delay: 2s;
 }
 
 /* Floating effect */
@@ -121,7 +122,7 @@
     display: inline-block;
     color: #4a8350;
     font-weight: bold;
-    width: 150px;
+    width: 190px;
 }
 
 /* Animation states */
@@ -167,15 +168,19 @@
 .getLoanButton {
     margin: 30px 0;
     padding: 10px 50px;
-    border: 2px solid #4a8350;
+    /* border: 2px solid #4a8350; */
+    /* background-color: #d4f5e1; */
+    background-color: #4a8350;
     border-radius: 20px;
-    transition: all 0.3s ease;
-    color: #4a8350;
+    transition: all 0.2s ease-in-out;
+    /* color: #4a8350; */
+    color: whitesmoke;
     font-weight: bold;
 }
 
 .getLoanButton:hover {
-    background-color: #4a8350;
-    color: white;
+    /* background-color: #4a8350; */
+    /* color: white; */
     cursor: pointer;
+    box-shadow: 0 4px 15px rgba(74, 131, 80, 0.4);
 }
