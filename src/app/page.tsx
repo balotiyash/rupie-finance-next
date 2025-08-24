@@ -7,6 +7,7 @@
 */
 
 // Importing Required Modules & Libraries
+import CheckCibilSection from "@/components/HomePage/CheckCibilSection";
 import HeroSection from "@/components/HomePage/HeroSection";
 import LoanSteps from "@/components/HomePage/LoanSteps";
 // import styles from "./page.module.css";
@@ -29,6 +30,9 @@ const page = () => {
 
             {/* Why Choose Us Section */}
             <WhyRFSection />
+
+            {/* Check Cibil Score Section */}
+            <CheckCibilSection />
         </main>
     );
 }
