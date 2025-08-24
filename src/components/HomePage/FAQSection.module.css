@@ -1,0 +1,85 @@
+/** 
+ * File: src/components/HomePage/FAQSection.module.css
+ * Author: Yash Balotiya
+ * Description: Styles for the FAQ Section component
+ * Created on: 24/08/2025
+ * Last Modified: 24/08/2025
+*/
+
+/* Main Container */
+.faqSection {
+    width: 80%;
+    border-radius: 8px;
+    margin: 100px 0;
+}
+
+/* Section Title */
+.faqSection h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.highlight {
+    color: #4A8350;
+}
+
+/* Accordion Container */
+.accordion {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* Accordion Item */
+.item {
+    border: 1px solid #4A8350;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Question */
+.question {
+    width: 100%;
+    padding: 1rem;
+    /* background: #ffffff; */
+    background: #ffffff;
+    border: none;
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #333;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Icon */
+.icon {
+    font-size: 1.5rem;
+    color: #4A8350;
+    transition: transform 0.3s;
+}
+
+/* Answer */
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 1rem;
+    font-size: 0.95rem;
+    color: #444;
+    /* background-color: #fdfdfd; */
+    background-color: #e3fad9;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+}
+
+/* Show Answer */
+.show {
+    max-height: 300px;
+    /* enough height for most answers */
+    padding: 1rem;
+}
