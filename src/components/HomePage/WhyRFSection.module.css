@@ -2,8 +2,8 @@
  * File: src/components/HomePage/WhyRFSection.module.css
  * Author: Yash Balotiya
  * Description: Main styles for the Why Choose Rupie Finance section
- * Created on: 24/08/2023
- * Last Modified: 24/08/2023
+ * Created on: 24/08/2025
+ * Last Modified: 03/10/2025
 */
 
 /* Main container */
@@ -18,6 +18,7 @@
 /* Section heading */
 .heading {
     font-size: 2rem;
+    text-align: center;
 }
 
 .highlight {
@@ -37,8 +38,8 @@
     width: 80%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 20px;
+    justify-content: center;
+    gap: 50px;
     margin-top: 50px;
 }
 

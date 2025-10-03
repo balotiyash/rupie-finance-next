@@ -3,7 +3,7 @@
  * Author: Yash Balotiya
  * Description: This file contains the styles for the HeroSection component.
  * Created on: 20/08/2025
- * Last Modified: 24/08/2025
+ * Last Modified: 03/10/2025
 */
 
 /* Hero Section */
@@ -183,4 +183,25 @@
     /* color: white; */
     cursor: pointer;
     box-shadow: 0 4px 15px rgba(74, 131, 80, 0.4);
+}
+
+/* Responsive Design */
+@media (max-width: 1000px) {
+    .flyingNotesImage {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .heroSection h2 {
+        font-size: 1.8rem;
+    }
+
+    .heroSection h2 span {
+        width: 140px;
+    }
+
+    .heroSection p {
+        width: 90%;
+    }
 }

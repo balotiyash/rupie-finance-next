@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
     "@studio-freight/lenis": "^1.0.42",
@@ -18,13 +17,10 @@
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "@types/react-slick": "^0.23.13",
-    "eslint": "^9",
-    "eslint-config-next": "15.4.6",
     "typescript": "^5"
   }
 }

@@ -3,13 +3,14 @@
  * Author: Yash Balotiya
  * Description: Styles for the LoanCard component.
  * Created on: 20/08/2025
- * Last Modified: 24/08/2025
+ * Last Modified: 03/10/2025
 */
 
 /* Loan Card Styles */
 /* Main Loan Card Container */
 .loanCard {
     width: 30%;
+    min-width: 300px;
     flex-grow: 1;
     /* border: 1px solid #39C260; */
     border-radius: 30px;

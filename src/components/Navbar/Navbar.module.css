@@ -3,7 +3,7 @@
  * Author: Yash Balotiya
  * Description: Styles for the Navbar component
  * Created on: 19/08/2025
- * Last Modified: 20/08/2025
+ * Last Modified: 03/10/2025
 */
 
 /* Navbar styles */
@@ -58,7 +58,6 @@
 }
 
 @keyframes heartbeat116 {
-
     0%,
     100% {
         width: 100%;
@@ -86,4 +85,71 @@
 
 #applyButton:hover {
     background-color: #3B6A40;
+}
+
+/* Hamburger Menu Icon */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.bar {
+    height: 3px;
+    width: 100%;
+    background-color: #333;
+    border-radius: 2px;
+}
+
+/* Sidebar for mobile */
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 250px;
+    height: 100vh;
+    background-color: #4A8350;
+    list-style: none;
+    padding: 2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    transition: right 0.3s ease-in-out;
+    z-index: 150;
+}
+
+.sidebar li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.show {
+    right: 0;
+}
+
+/* Desktop nav links (hide on mobile) */
+.navLinks {
+    display: flex;
+    gap: 3rem;
+}
+
+@media screen and (max-width: 850px) {
+    .navbar {
+        padding: 0.5rem 1rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #applyButton,
+    #desktopLinks {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+    }
 }

@@ -3,7 +3,7 @@
  * Author: Yash Balotiya
  * Description: Loan application steps component.
  * Created on: 24/08/2025
- * Last Modified: 24/08/2025
+ * Last Modified: 03/10/2025
 */
 
 'use client';
@@ -25,13 +25,28 @@ const LoanSteps = () => {
     ];
 
     // 👇 Define matching images for each step
-    const stepImages = [
+    const stepImages_old = [
         "https://ik.imagekit.io/krazybee/kreditbee_in/InnerPages/PersonalLoan/How_To_Apply_for_PersonalLoan_Steps1.png",
         "https://ik.imagekit.io/krazybee/kreditbee_in/InnerPages/PersonalLoan/How_To_Apply_for_PersonalLoan_Steps2.png",
         "https://ik.imagekit.io/krazybee/kreditbee_in/InnerPages/PersonalLoan/How_To_Apply_for_PersonalLoan_Steps3.png",
         "https://ik.imagekit.io/krazybee/kreditbee_in/InnerPages/PersonalLoan/How_To_Apply_for_PersonalLoan_Steps4.png",
         "https://ik.imagekit.io/krazybee/kreditbee_in/InnerPages/PersonalLoan/How_To_Apply_for_PersonalLoan_Steps5.png",
         "https://ik.imagekit.io/krazybee/kreditbee_in/InnerPages/PersonalLoan/How_To_Apply_for_PersonalLoan_Steps6.png",
+    ];
+    
+    const stepImages = [
+        // "/images/laptop-ss/loginPage.png",
+        // "/images/laptop-ss/personalDetails.png",
+        // "/images/laptop-ss/kycPage.png",
+        // "/images/laptop-ss/loginPage.png",
+        // "/images/laptop-ss/personalDetails.png",
+        // "/images/laptop-ss/kycPage.png",
+        "/images/laptop-ss/1.png",
+        "/images/laptop-ss/2.png",
+        "/images/laptop-ss/3.png",
+        "/images/laptop-ss/1.png",
+        "/images/laptop-ss/2.png",
+        "/images/laptop-ss/3.png",
     ];
 
     // Active step index
@@ -73,11 +88,16 @@ const LoanSteps = () => {
             <div className={styles.stepsWrapper}>
                 {/* Left Image Section */}
                 <div className={styles.imageWrapper}>
-                    <img
+                    {/* <img
                         alt="Phone Mockup"
                         src="https://ik.imagekit.io/krazybee/kreditbee_in/banners/New_Web/Inner_Pages/Generic/images_PhoneMockup-iOS.png"
                         className={styles.phoneMockup}
-                    />
+                    /> */}
+                    {/* <img
+                        alt="Phone Mockup"
+                        src="/images/laptop-placeholder.png"
+                        className={styles.phoneMockup}
+                    /> */}
                     <img
                         alt={`Step ${activeIndex + 1} Illustration`}
                         src={stepImages[activeIndex]} // 👈 change image per step

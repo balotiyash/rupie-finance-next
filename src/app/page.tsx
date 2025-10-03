@@ -3,7 +3,7 @@
  * Author: Yash Balotiya
  * Description: This file is the main entry point for the Next.js application.
  * Created on: 19/08/2025
- * Last Modified: 24/08/2025
+ * Last Modified: 03/10/2025
 */
 
 // Importing Required Modules & Libraries
@@ -34,11 +34,14 @@ const page = () => {
             <WhyRFSection />
 
             {/* Check Cibil Score Section */}
-            <CheckCibilSection />
+            {/* <CheckCibilSection /> */}
+            <br />
+            <br />
 
             {/* Impact Section */}
             <ImpactSection />
 
+            {/* FAQ Section */}
             <FAQSection />
         </main>
     );
