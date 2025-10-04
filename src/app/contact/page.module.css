@@ -1,0 +1,146 @@
+/** 
+ * File: src/app/contact/page.module.css
+ * Author: Yash Balotiya
+ * Description: This file contains the styles for the Contact page.
+ * Created on: 04/10/2025
+ * Last Modified: 04/10/2025
+*/
+
+/* Main Container */
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 150px 0;
+}
+
+.contactSection {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Left and Right Side */
+.leftSide,
+.rightSide {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.carLoanImage {
+    width: 80%;
+}
+
+.rightSide {
+    width: 40%;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 40px;
+    justify-content: space-between;
+}
+
+.inputSpan {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.inputSpan label {
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.inputSpan input,
+.inputSpan textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: 'Arial', sans-serif;
+    resize: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.inputSpan input:focus,
+.inputSpan textarea:focus {
+    outline: none;
+    border-color: #4a8350;
+    box-shadow: 0 0 5px rgba(58, 194, 92, 0.5);
+}
+
+.submitButton {
+    width: 100%;
+    padding: 12px;
+    background-color: #4a8350;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.submitButton:hover {
+    background-color: #3a6230;
+}
+
+/* Contact Information Section */
+.contactInfoSection {
+    width: 80%;
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactInfoItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+
+/* Remove spinner from input number */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Responsiveness */
+@media (max-width: 950px) {
+    .contactSection {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .leftSide,
+    .rightSide {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .rightSide {
+        height: 400px;
+        padding: 20px;
+    }
+
+    .contactInfoSection {
+        flex-direction: column;
+        gap: 30px;
+        width: 90%;
+        margin-top: 00px;
+    }
+
+    .contactInfoItem {
+        width: 100%;
+    }
+}

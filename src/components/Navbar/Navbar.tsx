@@ -3,7 +3,7 @@
  * Author: Yash Balotiya
  * Description: Navbar component for the application.
  * Created on: 19/08/2025
- * Last Modified: 03/10/2025
+ * Last Modified: 04/10/2025
 */
 
 "use client";
@@ -58,7 +58,7 @@ const Navbar = () => {
                     </li>
                 ))}
                 <li onClick={toggleMenu}>
-                    <Link href="/apply">Apply Loan</Link>
+                    <Link href="/contact">Apply Loan</Link>
                 </li>
             </ul>
 
@@ -72,7 +72,7 @@ const Navbar = () => {
             </nav>
 
             {/* Apply Button - Desktop */}
-            <Link href="/apply" id={style.applyButton}>Apply Loan</Link>
+            <Link href="/contact" id={style.applyButton}>Apply Loan</Link>
         </header>
     );
 };
