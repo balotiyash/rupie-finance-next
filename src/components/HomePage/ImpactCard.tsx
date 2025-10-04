@@ -3,7 +3,7 @@
  * Author: Yash Balotiya
  * Description: Impact Card component for displaying user information
  * Created on: 24/08/2025
- * Last Modified: 24/08/2025
+ * Last Modified: 04/10/2025
 */
 
 // Importing required modules & libraries
@@ -35,7 +35,8 @@ const ImpactCard = ({ name, role, image, description }: ImpactCardProps) => {
         // Impact Card Container
         <div className={styles.card}>
             {/* Profile Image */}
-            <img src={image} alt={`${name} Photo`} className={styles.image} />
+            {/* <img src={image} alt={`${name} Photo`} className={styles.image} /> */}
+            <img src={'https://avatar.iran.liara.run/username?username=' + name} alt={`${name} Photo`} className={styles.image} />
 
             {/* Name */}
             <h3 className={styles.title}>{name}</h3>

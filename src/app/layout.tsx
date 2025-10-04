@@ -3,7 +3,7 @@
  * Author: Yash Balotiya
  * Description: Main Layout component for the application. Can be consider it as Index Page of the Application
  * Created on: 19/08/2025
- * Last Modified: 03/10/2025
+ * Last Modified: 04/10/2025
 */
 
 // Importing required modules & libraries
@@ -33,6 +33,9 @@ export const metadata: Metadata = {
     icons: {
         icon: "/svgs/rupee-sign-solid-full.svg",
     },
+    other: {
+        'color-scheme': 'light only',
+    },
 };
 
 // Root layout component
@@ -43,6 +46,10 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
+            <head>
+                <meta name="color-scheme" content="light only" />
+                <meta name="theme-color" content="#ffffff" />
+            </head>
             <body className={`${geistSans.variable} ${geistMono.variable}`}>
                 {/* Navbar component for navigation */}
                 <Navbar />

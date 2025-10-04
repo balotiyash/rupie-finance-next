@@ -1,0 +1,63 @@
+/** 
+ * File: src/app/privacy-policy/page.module.css
+ * Author: Yash Balotiya
+ * Description: This file contains the styles for the Privacy Policy page.
+ * Created on: 04/10/2025
+ * Last Modified: 04/10/2025
+*/
+
+/* Main */
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.aboutSection {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    line-height: 30px;
+}
+
+.aboutSection h3 {
+    font-size: 30px;
+    color: #4a8350;
+}
+
+/* Rules */
+.rulesSection {
+    align-items: flex-start;
+}
+
+.ol li {
+    font-weight: bold;
+}
+
+.ul li {
+    font-weight: normal;
+}
+
+.subList {
+    list-style-type: lower-alpha;
+}
+
+.ul,
+.ol {
+    padding: 0px 25px;
+}
+
+.p {
+    font-weight: normal;
+}
+
+/* Responsiveness */
+@media (max-width: 1000px) {
+    .aboutSection {
+        width: 90%;
+    }
+}

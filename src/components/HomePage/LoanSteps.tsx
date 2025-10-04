@@ -3,7 +3,7 @@
  * Author: Yash Balotiya
  * Description: Loan application steps component.
  * Created on: 24/08/2025
- * Last Modified: 03/10/2025
+ * Last Modified: 04/10/2025
 */
 
 'use client';
@@ -35,18 +35,12 @@ const LoanSteps = () => {
     ];
     
     const stepImages = [
-        // "/images/laptop-ss/loginPage.png",
-        // "/images/laptop-ss/personalDetails.png",
-        // "/images/laptop-ss/kycPage.png",
-        // "/images/laptop-ss/loginPage.png",
-        // "/images/laptop-ss/personalDetails.png",
-        // "/images/laptop-ss/kycPage.png",
         "/images/laptop-ss/1.png",
         "/images/laptop-ss/2.png",
         "/images/laptop-ss/3.png",
-        "/images/laptop-ss/1.png",
-        "/images/laptop-ss/2.png",
-        "/images/laptop-ss/3.png",
+        "/images/laptop-ss/4.png",
+        "/images/laptop-ss/5.png",
+        "/images/laptop-ss/6.png",
     ];
 
     // Active step index

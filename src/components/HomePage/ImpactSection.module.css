@@ -3,7 +3,7 @@
  * Author: Yash Balotiya
  * Description: Styles for the Impact Section component
  * Created on: 24/08/2025
- * Last Modified: 24/08/2025
+ * Last Modified: 04/10/2025
 */
 
 /* Main Container */
@@ -27,5 +27,5 @@
 .slider {
     width: 100%;
     height: 100%;
-    /* margin-top: 50px; */
+    /* overflow: hidden; */
 }
