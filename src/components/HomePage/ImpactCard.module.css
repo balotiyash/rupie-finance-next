@@ -1,0 +1,62 @@
+/** 
+ * File: src/components/HomePage/ImpactCard.module.css
+ * Author: Yash Balotiya
+ * Description: Styles for the Impact Card component
+ * Created on: 24/08/2025
+ * Last Modified: 04/10/2025
+*/
+
+/* Main Card */
+.card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 12px;
+    margin: 16px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    transition: all 0.3s ease-in-out;
+    flex: 1 1 auto;
+    height: 350px;
+    flex-grow: 1;
+}
+
+.card:hover {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+/* Profile Image */
+.image {
+    /* width: 50%; */
+    width: 40%;
+    margin: 5% 0;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover .image {
+    filter: grayscale(0%);
+}
+
+/* Title */
+.title {
+    color: #333333;
+    font-size: 1.4rem;
+    color: #4A8350;
+}
+
+/* Description */
+.description {
+    font-size: 1rem;
+    color: #666666;
+}
+
+/* Read More */
+.readMore {
+    color: #4A8350;
+    cursor: pointer;
+    font-weight: bold;
+}

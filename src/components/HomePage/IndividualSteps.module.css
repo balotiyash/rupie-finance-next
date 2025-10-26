@@ -1,0 +1,69 @@
+/** 
+ * File: src/components/HomePage/IndividualSteps.module.css
+ * Author: Yash Balotiya
+ * Description: Styles for individual steps in the loan application process.
+ * Created on: 24/08/2025
+ * Last Modified: 24/08/2025
+*/
+
+/* Steps List */
+.stepsList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Step Item */
+.stepItem {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    cursor: pointer;
+}
+
+/* Step Icon Wrapper */
+.stepIconWrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+/* Step Number */
+.stepNumber {
+    width: 40px;
+    height: 40px;
+    background-color: #e0e0e0;
+    border-radius: 50%;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Active Step */
+.activeStep {
+    background-color: #39c260;
+    color: #fff;
+    border: 3px solid #4a8350;
+}
+
+/* Vertical Line */
+.verticalLine {
+    flex-grow: 1;
+    width: 2px;
+    height: 30px;
+    border-left: 2px dashed #4a8350;
+    margin-top: 4px;
+}
+
+/* Step Text */
+.stepText {
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-top: 8px;
+}

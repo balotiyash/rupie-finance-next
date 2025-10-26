@@ -1,0 +1,69 @@
+/** 
+ * File: src/app/globals.css
+ * Author: Yash Balotiya
+ * Description: Global styles for the application.
+ * Created on: 19/08/2025
+ * Last Modified: 04/10/2025
+*/
+
+/* Global Styles */
+html {
+    color-scheme: light only;
+    background-color: #ffffff;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #ffffff;
+    color: #333333;
+    overflow-x: hidden;
+}
+
+/* Force light theme for all elements */
+*, *::before, *::after {
+    color-scheme: light only;
+}
+
+/* Override any dark theme preferences */
+@media (prefers-color-scheme: dark) {
+    html {
+        color-scheme: light only !important;
+        background-color: #ffffff !important;
+    }
+    
+    body {
+        background-color: #ffffff !important;
+        color: #333333 !important;
+    }
+    
+    * {
+        color-scheme: light only !important;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Link Styles */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Main Content Styles */
+main {
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}

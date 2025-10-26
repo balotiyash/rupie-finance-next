@@ -1,0 +1,83 @@
+/** 
+ * File: src/components/HomePage/CheckCibilSection.module.css
+ * Author: Yash Balotiya
+ * Description: Styles for the CIBIL Check Section
+ * Created on: 24/08/2025
+ * Last Modified: 24/08/2025
+*/
+
+/* Main Container */
+.container {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to bottom right, #39C260, #2E7D32);
+    border-radius: 20px;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin: 50px 0;
+    margin-bottom: 100px;
+}
+
+/* CIBIL Check Image */
+.container img {
+    width: 40%;
+    height: auto;
+    object-fit: contain;
+    position: relative;
+    left: -80px;
+    bottom: -50px;
+}
+
+/* CIBIL Check Text */
+.container div {
+    flex: 1 1 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    color: whitesmoke;
+    gap: 1rem;
+}
+
+.container div h3 {
+    font-size: 1.5rem;
+}
+
+.container div p {
+    font-size: small;
+}
+
+/* CIBIL Check Button */
+.viewBtn {
+    padding: 12px 30px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    text-decoration: none;
+    color: whitesmoke;
+    transition: background 0.3s;
+}
+
+.viewBtn:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .container img {
+        width: 60%;
+        max-width: 250px;
+    }
+
+    .container div {
+        align-items: center;
+    }
+}

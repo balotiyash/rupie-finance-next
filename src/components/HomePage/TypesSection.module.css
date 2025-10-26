@@ -1,0 +1,46 @@
+/** 
+ * File: src/components/HomePage/TypesSection.module.css
+ * Author: Yash Balotiya
+ * Description: Styles for the TypesSection component.
+ * Created on: 20/08/2025
+ * Last Modified: 03/10/2025
+*/
+
+/* Main Types Section */
+.typesSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0 0 0;
+}
+
+.typesSection h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    margin-bottom: 120px;
+}
+
+.typesSection h2 span {
+    color: #4A8350;
+}
+
+.typesContainer {
+    width: 80%;
+    background: radial-gradient(ellipse 52% 50%, #d6f7c6 0%, #ffffff 100%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    gap: 30px;
+}
+
+/* Responsive Design */
+@media (max-width: 1210px) {
+    .typesContainer {
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}

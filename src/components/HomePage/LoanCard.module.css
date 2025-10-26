@@ -1,0 +1,67 @@
+/** 
+ * File: src/components/HomePage/LoanCard.module.css
+ * Author: Yash Balotiya
+ * Description: Styles for the LoanCard component.
+ * Created on: 20/08/2025
+ * Last Modified: 03/10/2025
+*/
+
+/* Loan Card Styles */
+/* Main Loan Card Container */
+.loanCard {
+    width: 30%;
+    min-width: 300px;
+    flex-grow: 1;
+    /* border: 1px solid #39C260; */
+    border-radius: 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    text-align: center;
+    gap: 16px;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+    top: -100px;
+}
+
+.loanCard:hover {
+    box-shadow: rgba(14, 63, 126, 0.04) 0px 0px 0px 1px, rgba(42, 51, 69, 0.04) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.04) 0px 6px 6px -3px, rgba(14, 63, 126, 0.04) 0px 12px 12px -6px, rgba(14, 63, 126, 0.04) 0px 24px 24px -12px;
+}
+
+/* Loan Image */
+.loanImage {
+    height: 80px;
+    width: 80px;
+}
+
+/* Loan Title */
+.loanTitle {
+    font-size: 1.5rem;
+}
+
+/* Loan Description */
+.loanDescription {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Get Loan Button */
+.getLoanButton {
+    width: 50%;
+    border: 1px solid #4A8350;
+    border-radius: 20px;
+    padding: 8px 16px;
+    background-color: transparent;
+    color: #4A8350;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.getLoanButton:hover {
+    background-color: #4A8350;
+    color: white;
+}

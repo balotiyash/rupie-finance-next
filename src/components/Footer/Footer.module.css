@@ -1,0 +1,95 @@
+/** 
+ * File: src/components/Footer/Footer.module.css
+ * Author: Yash Balotiya
+ * Description: This file contains the styles for the Footer component.
+ * Created on: 03/10/2025
+ * Last Modified: 03/10/2025
+*/
+
+/* Main Footer */
+.footer {
+    width: 100%;
+    background-color: #0a1815;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footerContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Company Name */
+.companyName {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.companyName h1 {
+    font-size: 40px;
+    color: #39c260;
+}
+
+.companyName p {
+    font-size: 16px;
+    color: #ffffff;
+    opacity: 0.7;
+}
+
+/* Links Section */
+.linksDiv {
+    display: flex;
+    gap: 100px;
+}
+
+.pageLinks {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;
+    color: lightgray;
+}
+
+.linksDiv h3 {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+/* Copyright Section */
+.copyright {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    position: relative;
+    top: 20px;
+}
+
+.copyright p {
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 1110px) {
+    .linksDiv {
+        gap: 50px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .footerContainer {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .linksDiv {
+        flex-direction: column;
+        text-align: center;
+    }
+}

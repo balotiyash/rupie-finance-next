@@ -1,0 +1,31 @@
+/** 
+ * File: src/components/HomePage/ImpactSection.module.css
+ * Author: Yash Balotiya
+ * Description: Styles for the Impact Section component
+ * Created on: 24/08/2025
+ * Last Modified: 04/10/2025
+*/
+
+/* Main Container */
+.container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: radial-gradient(52% 50%, #d6f7c6 0%, #fff 100%);
+}
+
+.container h2 {
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+
+.highlight {
+    color: #4A8350;
+}
+
+.slider {
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+}

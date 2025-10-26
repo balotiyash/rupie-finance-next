@@ -1,0 +1,118 @@
+/** 
+ * File: src/components/HomePage/LoanSteps.module.css
+ * Author: Yash Balotiya
+ * Description: Styles for the loan steps component
+ * Created on: 24/08/2025
+ * Last Modified: 03/10/2025
+*/
+
+/* Container for the loan steps */
+.container {
+    /* margin-top: 5rem; */
+    scroll-margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background: linear-gradient(to bottom, #ffffff, #fffae6); */
+    background: linear-gradient(to bottom, #ffffff, #e3fad9);
+    width: 100%;
+    padding-bottom: 50px;
+    border-radius: 0 0 10% 0%;
+}
+
+/* Heading styles */
+.heading {
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+    color: #212529;
+}
+
+#rupieFinanceH1 {
+    color: #4A8350;
+    font-size: 3rem;
+}
+
+.headingUnderline {
+    /* width: 4rem; */
+    /* height: 4px; */
+    /* border-radius: 9999px; */
+    /* background: #f57c00; */
+    /* margin: 0.5rem auto 0 auto; */
+}
+
+/* Description styles */
+.description {
+    margin-top: 1.5rem;
+    text-align: center;
+    line-height: 1.6;
+    width: 80%;
+}
+
+/* Steps wrapper styles */
+.stepsWrapper {
+    display: flex;
+    margin-top: 3rem;
+    width: 100%;
+}
+
+/* Image wrapper styles */
+.imageWrapper {
+    /* position: relative;
+    width: 50%;
+    height: 500px; */
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageWrapper img {
+    width: 80%;
+}
+
+.phoneMockup {
+    /* position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: 1; */
+}
+
+/* Step illustration styles */
+.stepIllustration {
+    /* position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 71%;
+    transform: scale(0.77);
+    top: 35px; */
+    /* object-fit: contain; */
+}
+
+.stepsListWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+/* Responsive styles */
+@media (max-width:750px) {
+    .stepsWrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imageWrapper,
+    .stepsListWrapper {
+        width: 90%;
+        height: auto;
+        margin-bottom: 2rem;
+    }
+
+    .imageWrapper img {
+        width: 100%;
+    }
+}
