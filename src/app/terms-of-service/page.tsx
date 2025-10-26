@@ -1,9 +1,9 @@
 /** 
  * File: src/app/terms-of-services/page.tsx
- * Author: Yash Balotiya
+ * Author: Yash Balotiya, Neha Balotia
  * Description: This file contains the Terms of Service page for the application.
  * Created on: 04/10/2025
- * Last Modified: 04/10/2025
+ * Last Modified: 26/10/2025
 */
 
 // Importing Required Modules & Libraries
@@ -22,10 +22,10 @@ const page = () => {
                 <h3>Terms and Conditions</h3>
                 <h4>Website: <Link href="https://www.rupiefinance.com">www.rupiefinance.com</Link></h4>
 
-                <p>This Website is operated by <b>Krepco Technology Private Limited</b>, a company registered under the Companies Act, 2013 and governed by the Nidhi Rules, 2014, having its registered office at:
+                <p>This Website is operated by <b>Krepco Technology Private Limited</b>, a company registered under the Companies Act, 2013 having its registered office at:
                 </p>
 
-                <b>11/F, Kamgar Nagar, S G Barve Marg, Kurla (East), Mumbai, Maharashtra, India – 400024.</b>
+                <b>H5 Kamgar Nagar Kurla East, Mumbai 400024.</b>
 
                 <p>By accessing or using this Website, you agree to the terms below. If you do not agree, you may not use this Website.</p>
 

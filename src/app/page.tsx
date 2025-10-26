@@ -9,7 +9,8 @@
 // Importing Required Modules & Libraries
 import CheckCibilSection from "@/components/HomePage/CheckCibilSection";
 import FAQSection from "@/components/HomePage/FAQSection";
-import HeroSection from "@/components/HomePage/HeroSection";
+import HeroSec from "@/components/HomePage/HeroSec";
+// import HeroSection from "@/components/HomePage/HeroSection";
 import ImpactSection from "@/components/HomePage/ImpactSection";
 import LoanSteps from "@/components/HomePage/LoanSteps";
 // import styles from "./page.module.css";
@@ -22,7 +23,8 @@ const page = () => {
     return (
         <main>
             {/* Hero Section */}
-            <HeroSection />
+            {/* <HeroSection /> */}
+            <HeroSec />
 
             {/* Our Services Section */}
             <TypesSection />

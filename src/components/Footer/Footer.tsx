@@ -38,7 +38,7 @@ const Footer = () => {
                     <span className={styles.pageLinks}>
                         <h3>Other Links</h3>
                         <Link href="/privacy-policy">Privacy Policy</Link>
-                        <Link href="/terms-of-service">Terms of Service</Link>
+                        <Link href="/terms-of-service">Terms & Conditions</Link>
                         <Link href="/refund-cancellation">Refund & Cancellation</Link>
                     </span>
 

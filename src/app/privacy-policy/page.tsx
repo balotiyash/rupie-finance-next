@@ -1,9 +1,9 @@
 /** 
  * File: src/app/privacy-policy/page.tsx
- * Author: Yash Balotiya
+ * Author: Yash Balotiya, Neha Balotia
  * Description: This file contains the Privacy Policy page for the application.
  * Created on: 04/10/2025
- * Last Modified: 04/10/2025
+ * Last Modified: 26/10/2025
 */
 
 // Importing Required Modules & Libraries
@@ -194,7 +194,7 @@ const page = () => {
                         Contact Us
                         <p className={style.p}>If you have any questions or concerns regarding this Privacy Policy, please contact us:</p>
                         <p className={style.p}><b>Krepco Technology Private Limited</b></p>
-                        <p className={style.p}>Address: 11/F, Kamgar Nagar, S G Barve Marg, Kurla (East), Mumbai, Maharashtra, India – 400024</p>
+                        <p className={style.p}>Address: H5 Kamgar Nagar Kurla East, Mumbai 400024.</p>
                         <p className={style.p}>Email: <Link href="mailto:support@rupiefinance.com">support@rupiefinance.com</Link></p>
                         <p className={style.p}>Website: <Link href="https://www.rupiefinance.com">www.rupiefinance.com</Link></p>
                     </li>

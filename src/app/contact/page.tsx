@@ -1,9 +1,9 @@
 /** 
  * File: src/app/contact/page.tsx
- * Author: Yash Balotiya
+ * Author: Yash Balotiya, Neha Balotia
  * Description: This file contains the Contact page for the application.
  * Created on: 04/10/2025
- * Last Modified: 04/10/2025
+ * Last Modified: 26/10/2025
 */
 
 "use client";
@@ -71,7 +71,7 @@ const page = () => {
                 {/* Left Side */}
                 <div className={styles.leftSide}>
                     {/* Car Loan Image */}
-                    <img src="/images/car-loan.jpg" alt="Car Loan" className={styles.carLoanImage} />
+                    <img src="/images/vehicle-loan.png" alt="Car Loan" className={styles.carLoanImage} />
 
                     {/* Description */}
                     <p>We recognize how difficult it can be to reach out to loan defaulters and how simple it can be to disburse a loan, we've partnered With other financial institutions in the niche to power our user's KYC and onboarding processes. reducing the Stress Of loan recovery and determining users credit score, spending habits and transaction network before approving a loan.</p>
@@ -122,7 +122,7 @@ const page = () => {
                 {/* Address */}
                 <div className={styles.contactInfoItem}>
                     <h3>Address</h3>
-                    <Link href="https://www.google.com/maps/place/11/F,+Kamgar+Nagar,+Kurla+(E),+Mumbai+-+400024https://maps.app.goo.gl/g3UhwEfNsSueE251A">11/F, Kamgar Nagar, Kurla (E), Mumbai - 400024</Link>
+                    <Link href="https://maps.app.goo.gl/jUBjw7g3TQB6meXE6">H5 Kamgar Nagar Kurla East, Mumbai 400024.</Link>
                 </div>
             </section>
         </main>
