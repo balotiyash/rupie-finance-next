@@ -1,9 +1,9 @@
 /** 
  * File: src/components/HomePage/LoanSteps.tsx
- * Author: Yash Balotiya
+ * Author: Yash Balotiya, Neha Balotia
  * Description: Loan application steps component.
  * Created on: 24/08/2025
- * Last Modified: 04/10/2025
+ * Last Modified: 27/10/2025
 */
 
 'use client';
@@ -35,12 +35,19 @@ const LoanSteps = () => {
     ];
     
     const stepImages = [
-        "/images/laptop-ss/1.png",
-        "/images/laptop-ss/2.png",
-        "/images/laptop-ss/3.png",
-        "/images/laptop-ss/4.png",
-        "/images/laptop-ss/5.png",
-        "/images/laptop-ss/6.png",
+        // "/images/laptop-ss/1.png",
+        // "/images/laptop-ss/2.png",
+        // "/images/laptop-ss/3.png",
+        // "/images/laptop-ss/4.png",
+        // "/images/laptop-ss/5.png",
+        // "/images/laptop-ss/6.png",
+        
+        "/images/mobile-ss/1.jpg",
+        "/images/mobile-ss/2.jpg",
+        "/images/mobile-ss/3.jpg",
+        "/images/mobile-ss/4.jpg",
+        "/images/mobile-ss/5.jpg",
+        "/images/mobile-ss/6.jpg",
     ];
 
     // Active step index

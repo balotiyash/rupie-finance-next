@@ -1,9 +1,9 @@
 /** 
  * File: src/components/HomePage/LoanSteps.module.css
- * Author: Yash Balotiya
+ * Author: Yash Balotiya, Neha Balotia
  * Description: Styles for the loan steps component
  * Created on: 24/08/2025
- * Last Modified: 03/10/2025
+ * Last Modified: 27/10/2025
 */
 
 /* Container for the loan steps */
@@ -17,7 +17,7 @@
     background: linear-gradient(to bottom, #ffffff, #e3fad9);
     width: 100%;
     padding-bottom: 50px;
-    border-radius: 0 0 10% 0%;
+    /* border-radius: 0 0 10% 0%; */
 }
 
 /* Heading styles */
@@ -52,6 +52,9 @@
 /* Steps wrapper styles */
 .stepsWrapper {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
     margin-top: 3rem;
     width: 100%;
 }
@@ -61,14 +64,15 @@
     /* position: relative;
     width: 50%;
     height: 500px; */
-    width: 50%;
+    width: 45%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
+    padding-right: 1rem;
 }
 
 .imageWrapper img {
-    width: 80%;
+    width: 50%;
 }
 
 .phoneMockup {
@@ -89,14 +93,22 @@
     transform: scale(0.77);
     top: 35px; */
     /* object-fit: contain; */
+
+    width: 50%;
+    height: 450px;
+    object-fit: contain;
 }
 
 .stepsListWrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
     width: 50%;
+    padding-left: 1rem;
 }
+
+
 
 /* Responsive styles */
 @media (max-width:750px) {

@@ -1,9 +1,9 @@
 /** 
  * File: src/components/Footer/Footer.tsx
- * Author: Yash Balotiya
+ * Author: Yash Balotiya, Neha Balotia
  * Description: This file contains the Footer component for the application.
  * Created on: 03/10/2025
- * Last Modified: 04/10/2025
+ * Last Modified: 27/10/2025
 */
 
 // Importing Required Modules & Libraries
@@ -47,7 +47,7 @@ const Footer = () => {
                         <h3>Contact Us</h3>
                         <Link href="tel:+918691030707">+91 86910 30707</Link>
                         <Link href="mailto:support@rupiefinance.com">support@rupiefinance.com</Link>
-                        <Link href="https://maps.app.goo.gl/EPejJn3Hy5i5spR68" target='_blank'>Mumbai - 400024</Link>
+                        <Link href="https://maps.app.goo.gl/jUBjw7g3TQB6meXE6" target='_blank'>Mumbai - 400024</Link>
                     </span>
                 </div>
             </section>
