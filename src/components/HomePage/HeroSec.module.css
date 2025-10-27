@@ -3,9 +3,10 @@
  * Author: Neha Balotia
  * Description: This file contains the styles for the HeroSection component for the homepage.
  * Created on: 26/10/2025
- * Last Modified: 26/10/2025
+ * Last Modified: 27/10/2025
 */
 
+/* Hero Section */
 .heroSec {
     position: relative;
     width: 100%;
@@ -21,6 +22,7 @@
     text-align: center;
 }
 
+/* Text Displayed in Hero Section */
 .textContainer h1 {
     display: flex;
     align-items: center;
@@ -29,23 +31,26 @@
     font-weight: bold;
 }
 
+/* Typewriter */
 .typewriter {
     display: inline-flex !important;
     color: #4a8350;
     margin: 20px;
 }
 
-
+/* Image Container in Hero Section */
 .imageContainer {
     height: 50vh;
     display: flex;
     justify-content: flex-end;
 }
 
+/* Image in Hero Section */
 .personImg {
     mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
 }
 
+/* Keyframes */
 @media screen and (max-width: 1100px) {
     .heroSec {
         padding-left: 5%;
@@ -120,7 +125,7 @@
     }
 
     .textContainer h1 {
-        font-size:35px;
+        font-size: 35px;
     }
 
     .personImg {
@@ -135,7 +140,7 @@
     }
 
     .textContainer h1 {
-        font-size:35px;
+        font-size: 35px;
     }
 
     .personImg {
@@ -144,8 +149,8 @@
 }
 
 @media screen and (max-width: 500px) {
-        .textContainer h1 {
-        font-size:30px;
+    .textContainer h1 {
+        font-size: 30px;
     }
 
     .personImg {
@@ -162,7 +167,7 @@
     .textContainer h1 {
         display: flex;
         flex-direction: column;
-        font-size:25px;
+        font-size: 25px;
     }
 
     .personImg {

@@ -3,7 +3,7 @@
  * Author: Neha Balotia
  * Description: This file contains the HeroSection component for the homepage.
  * Created on: 26/10/2025
- * Last Modified: 26/10/2025
+ * Last Modified: 27/10/2025
 */
 
 'use client';
@@ -27,15 +27,18 @@ const HeroSec = () => {
                                 options={{
                                     // Array of Words to be displayed in typing one after another.
                                     strings: ['Safe', 'Secure', 'Fast'],
+                                    // Start Typing whenever the page is opened.
                                     autoStart: true,
+                                    // Keep typing words in loop
                                     loop: true,
                                 }}
                             />
                         </span>
                         Loan </h1>
                 </div>
+                {/* Image of a person Holding Phone in Herosection */}
                 <div className={styles.imageContainer}>
-                    <img src="/images/person.png" alt="Person" className={styles.personImg} />
+                    <img src="/images/person.png" alt="Person Showing Loan Approved" className={styles.personImg} />
                 </div>
             </div>
         </>
