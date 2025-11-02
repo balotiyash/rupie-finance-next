@@ -1,3 +1,4 @@
+/* Main Container */
 .about {
     display: flex;
     flex-direction: column;
@@ -7,12 +8,70 @@
     text-align: justify;
 }
 
+/* Heading About-Us */
 .about h1 {
     font-size: 50px;
     color: rgb(52, 122, 52);
 }
 
+/* Description */
 .about p {
-    margin: 2% 25% 2% 25%;
+    margin: 2% 30% 2% 30%;
     color: rgb(51, 51, 51);
+    font-size: 18px;
+}
+
+
+/* Keyframes */
+@media screen and (max-width: 1000px) {
+    .about h1 {
+        font-size: 45px;
+        color: rgb(52, 122, 52);
+    }
+
+    .about p {
+        margin: 2% 25% 2% 25%;
+        color: rgb(51, 51, 51);
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+    .about h1 {
+        font-size: 40px;
+        color: rgb(52, 122, 52);
+    }
+
+    .about p {
+        margin: 2% 20% 2% 20%;
+        color: rgb(51, 51, 51);
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .about p {
+        margin: 5% 15% 3% 15%;
+        color: rgb(51, 51, 51);
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .heroSec {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .textContainer h1 {
+        display: flex;
+        flex-direction: column;
+        font-size: 25px;
+    }
+
+    .personImg {
+        height: 25vh;
+        mask-image: linear-gradient(to bottom, rgb(255, 255, 255) 50%, transparent 100%);
+    }
 }
