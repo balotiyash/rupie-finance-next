@@ -32,8 +32,9 @@
     text-align: center;
 }
 
-.carLoanImage {
-    width: 80%;
+.moneyImage {
+    width: 50%;
+    margin-bottom: 5%;
 }
 
 .rightSide {
