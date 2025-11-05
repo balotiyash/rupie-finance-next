@@ -1,3 +1,12 @@
+/** 
+ * File: src/app/contact/page.module.css
+ * Author: Neha Balotia
+ * Description: This file contains styles for About us page.
+ * Created on: 02/11/2025
+ * Last Modified: 05/11/2025
+*/
+
+
 /* Main Container */
 .about {
     display: flex;

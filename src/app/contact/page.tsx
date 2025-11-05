@@ -71,7 +71,7 @@ const page = () => {
                 {/* Left Side */}
                 <div className={styles.leftSide}>
                     {/* Car Loan Image */}
-                    <img src="/images/money.png" alt="Car Loan" className={styles.moneyImage} />
+                    <img src="/images/vehicle-loan.png" alt="Car Loan" className={styles.carLoanImage} />
 
                     {/* Description */}
                     <p>We recognize how difficult it can be to reach out to loan defaulters and how simple it can be to disburse a loan, we've partnered With other financial institutions in the niche to power our user's KYC and onboarding processes. reducing the Stress Of loan recovery and determining users credit score, spending habits and transaction network before approving a loan.</p>

@@ -1,8 +1,16 @@
-import React from 'react'
-import style from './page.module.css'
+/** 
+ * File: src/app/contact/page.module.css
+ * Author: Neha Balotia
+ * Description: This file contains About us page For the Application.
+ * Created on: 02/11/2025
+ * Last Modified: 05/11/2025
+*/
+
+import React from 'react';
+import style from './page.module.css';
 
 const page = () => {
-	return (
+	return (	
 		<main>
 			<div className={style.about}>
 				{/* Title */}

@@ -189,7 +189,7 @@
 
     .personImg {
         mask-image: linear-gradient(to bottom, rgb(255, 255, 255) 50%, transparent 100%);
-        height: 30vh;
+        height: 50vh;
     }
 
     .getLoanButton {
@@ -231,12 +231,13 @@
 
     .textContainer h1 {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         font-size: 25px;
+        margin-top: 2%;
     }
 
     .personImg {
-        height: 25vh;
+        height: 45vh;
         mask-image: linear-gradient(to bottom, rgb(255, 255, 255) 50%, transparent 100%);
     }
 }
