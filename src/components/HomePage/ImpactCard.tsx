@@ -7,6 +7,7 @@
 */
 
 // Importing required modules & libraries
+import { useState } from 'react';
 import styles from './ImpactCard.module.css';
 
 // Impact Card Component
@@ -19,17 +20,15 @@ type ImpactCardProps = {
 
 // Impact Card Component
 const ImpactCard = ({ name, role, image, description }: ImpactCardProps) => {
+    // State to manage full description visibility
+    const [showFull, setShowFull] = useState(false);
+
     // Trim description
     const maxLength = 100; // ✂️ adjust as needed
     const shortDesc =
         description.length > maxLength
             ? description.substring(0, maxLength) + "..."
             : description;
-
-    // Handle full description display
-    const handleShowFull = () => {
-        alert(description);
-    };
 
     return (
         // Impact Card Container
@@ -46,13 +45,13 @@ const ImpactCard = ({ name, role, image, description }: ImpactCardProps) => {
 
             {/* Description */}
             <p className={styles.description}>
-                {shortDesc}{" "}
+                {showFull ? description : shortDesc}{" "}
                 {description.length > maxLength && (
                     <span
                         className={styles.readMore}
-                        onClick={handleShowFull}
+                        onClick={() => setShowFull(!showFull)}
                     >
-                        Read More
+                        {showFull ? "Show Less" : "Read More"}
                     </span>
                 )}
             </p>
