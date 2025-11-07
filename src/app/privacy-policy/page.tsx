@@ -3,7 +3,7 @@
  * Author: Yash Balotiya, Neha Balotia
  * Description: This file contains the Privacy Policy page for the application.
  * Created on: 04/10/2025
- * Last Modified: 26/10/2025
+ * Last Modified: 07/11/2025
 */
 
 // Importing Required Modules & Libraries
@@ -202,6 +202,7 @@ const page = () => {
             </section>
         </main>
     );
-}
+};
 
+// Exporting Privacy Policy Page Component
 export default page;

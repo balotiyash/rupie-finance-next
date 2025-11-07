@@ -3,7 +3,7 @@
  * Author: Yash Balotiya
  * Description: Individual step component for loan application process.
  * Created on: 24/08/2025
- * Last Modified: 24/08/2025
+ * Last Modified: 07/11/2025
 */
 
 // Importing necessary modules & libraries
@@ -52,4 +52,5 @@ const IndividualStep: React.FC<IndividualStepProps> = ({
     );
 };
 
+// Exporting the IndividualStep component
 export default IndividualStep;

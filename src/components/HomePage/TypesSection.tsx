@@ -3,7 +3,7 @@
  * Author: Yash Balotiya, Neha Balotia
  * Description: This file contains the TypesSection component. It contains types of loan.
  * Created on: 20/08/2025
- * Last Modified: 24/10/2025
+ * Last Modified: 07/11/2025
 */
 
 // Importing require modules & libraries
@@ -31,7 +31,8 @@ const TypesSection = () => {
                 <LoanCard image='/images/vehicle-loan.png' title='Vehicle Loan' description='Get a two-wheeler loan with low interest rates.' />
             </div>
         </section>
-    )
-}
+    );
+};
 
+// Exporting TypesSection component
 export default TypesSection;

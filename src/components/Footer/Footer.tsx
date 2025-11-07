@@ -3,7 +3,7 @@
  * Author: Yash Balotiya, Neha Balotia
  * Description: This file contains the Footer component for the application.
  * Created on: 03/10/2025
- * Last Modified: 27/10/2025
+ * Last Modified: 07/11/2025
 */
 
 // Importing Required Modules & Libraries
@@ -58,6 +58,7 @@ const Footer = () => {
             </div>
         </footer>
     );
-}
+};
 
-export default Footer
+// Exporting Footer Component
+export default Footer;

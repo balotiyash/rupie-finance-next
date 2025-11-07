@@ -3,7 +3,7 @@
  * Author: Yash Balotiya
  * Description: This file contains the Terms of Service page for the application.
  * Created on: 04/10/2025
- * Last Modified: 04/10/2025
+ * Last Modified: 07/11/2025
 */
 
 // Importing Required Modules & Libraries
@@ -73,6 +73,7 @@ const page = () => {
             </section>
         </main>
     );
-}
+};
 
+// Exporting the Refund & Cancellation Page Component
 export default page;

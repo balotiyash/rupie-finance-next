@@ -3,7 +3,7 @@
  * Author: Yash Balotiya
  * Description: Navbar component for the application.
  * Created on: 19/08/2025
- * Last Modified: 04/10/2025
+ * Last Modified: 07/11/2025
 */
 
 "use client";
@@ -77,4 +77,5 @@ const Navbar = () => {
     );
 };
 
+// Exporting Navbar component
 export default Navbar;

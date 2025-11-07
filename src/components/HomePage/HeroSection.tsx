@@ -3,7 +3,7 @@
  * Author: Yash Balotiya, Neha Balotia
  * Description: This file contains the HeroSection component for the homepage.
  * Created on: 20/08/2025
- * Last Modified: 24/10/2025
+ * Last Modified: 07/11/2025
 */
 
 'use client';
@@ -95,4 +95,5 @@ const HeroSection = () => {
     );
 };
 
+// Exporting HeroSection component
 export default HeroSection;

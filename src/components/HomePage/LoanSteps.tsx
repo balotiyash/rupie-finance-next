@@ -3,7 +3,7 @@
  * Author: Yash Balotiya, Neha Balotia
  * Description: Loan application steps component.
  * Created on: 24/08/2025
- * Last Modified: 27/10/2025
+ * Last Modified: 07/11/2025
 */
 
 'use client';
@@ -35,13 +35,6 @@ const LoanSteps = () => {
     ];
     
     const stepImages = [
-        // "/images/laptop-ss/1.png",
-        // "/images/laptop-ss/2.png",
-        // "/images/laptop-ss/3.png",
-        // "/images/laptop-ss/4.png",
-        // "/images/laptop-ss/5.png",
-        // "/images/laptop-ss/6.png",
-        
         "/images/mobile-ss/1.jpg",
         "/images/mobile-ss/2.jpg",
         "/images/mobile-ss/3.jpg",
@@ -89,16 +82,6 @@ const LoanSteps = () => {
             <div className={styles.stepsWrapper}>
                 {/* Left Image Section */}
                 <div className={styles.imageWrapper}>
-                    {/* <img
-                        alt="Phone Mockup"
-                        src="https://ik.imagekit.io/krazybee/kreditbee_in/banners/New_Web/Inner_Pages/Generic/images_PhoneMockup-iOS.png"
-                        className={styles.phoneMockup}
-                    /> */}
-                    {/* <img
-                        alt="Phone Mockup"
-                        src="/images/laptop-placeholder.png"
-                        className={styles.phoneMockup}
-                    /> */}
                     <img
                         alt={`Step ${activeIndex + 1} Illustration`}
                         src={stepImages[activeIndex]} // 👈 change image per step
@@ -126,4 +109,5 @@ const LoanSteps = () => {
     );
 };
 
+// Exporting LoanSteps component
 export default LoanSteps;

@@ -1,9 +1,9 @@
 /** 
  * File: src/app/contact/page.tsx
- * Author: Yash Balotiya, Neha Balotia
+ * Author: Yash Balotiya
  * Description: This file contains the Contact page for the application.
  * Created on: 04/10/2025
- * Last Modified: 26/10/2025
+ * Last Modified: 07/11/2025
 */
 
 "use client";
@@ -129,4 +129,5 @@ const page = () => {
     );
 };
 
+// Exporting Contact Page Component
 export default page;

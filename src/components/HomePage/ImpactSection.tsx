@@ -3,7 +3,7 @@
  * Author: Yash Balotiya
  * Description: Impact Section component for displaying the impact of the organization.
  * Created on: 24/08/2025
- * Last Modified: 04/10/2025
+ * Last Modified: 07/11/2025
  */
 
 "use client";
@@ -131,4 +131,5 @@ const ImpactSection = () => {
     );
 };
 
+// Exporting the ImpactSection component
 export default ImpactSection;

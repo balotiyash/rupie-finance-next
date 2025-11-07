@@ -1,11 +1,10 @@
 /** 
- * File: src/app/contact/page.module.css
- * Author: Neha Balotia
+ * File: src/app/about/page.module.css
+ * Author: Neha Balotia, Yash Balotiya
  * Description: This file contains styles for About us page.
  * Created on: 02/11/2025
- * Last Modified: 05/11/2025
+ * Last Modified: 07/11/2025
 */
-
 
 /* Main Container */
 .about {
@@ -29,7 +28,6 @@
     color: rgb(51, 51, 51);
     font-size: 18px;
 }
-
 
 /* Keyframes */
 @media screen and (max-width: 1000px) {

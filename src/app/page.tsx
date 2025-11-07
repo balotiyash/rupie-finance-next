@@ -3,11 +3,11 @@
  * Author: Yash Balotiya
  * Description: This file is the main entry point for the Next.js application.
  * Created on: 19/08/2025
- * Last Modified: 03/10/2025
+ * Last Modified: 07/11/2025
 */
 
 // Importing Required Modules & Libraries
-import CheckCibilSection from "@/components/HomePage/CheckCibilSection";
+// import CheckCibilSection from "@/components/HomePage/CheckCibilSection";
 import FAQSection from "@/components/HomePage/FAQSection";
 import HeroSec from "@/components/HomePage/HeroSec";
 // import HeroSection from "@/components/HomePage/HeroSection";
@@ -47,6 +47,7 @@ const page = () => {
             <FAQSection />
         </main>
     );
-}
+};
 
+// Exporting the Page Component as Default
 export default page;

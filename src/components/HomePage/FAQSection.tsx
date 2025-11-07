@@ -3,7 +3,7 @@
  * Author: Yash Balotiya
  * Description: FAQ Section component
  * Created on: 24/08/2025
- * Last Modified: 04/10/2025
+ * Last Modified: 07/11/2025
 */
 
 "use client";
@@ -12,6 +12,7 @@
 import { useState } from "react";
 import styles from "./FAQSection.module.css";
 
+// FAQ Section Component
 const FAQSection = () => {
     // FAQ data
     const faqs = [
@@ -99,4 +100,5 @@ const FAQSection = () => {
     );
 };
 
+// Exporting FAQ Section Component
 export default FAQSection;

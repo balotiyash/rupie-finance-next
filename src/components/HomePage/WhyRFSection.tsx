@@ -2,8 +2,8 @@
  * File: src/components/HomePage/WhyRFSection.tsx
  * Author: Yash Balotiya
  * Description: This component displays the "Why Choose Rupie Finance?" section on the homepage.
- * Created on: 24/08/2023
- * Last Modified: 24/08/2023
+ * Created on: 24/08/2025
+ * Last Modified: 07/11/2025
 */
 
 // Importing required modules & libraries
@@ -50,6 +50,7 @@ const WhyRFSection = () => {
             </div>
         </section>
     );
-}
+};
 
+// Exporting the WhyRFSection component
 export default WhyRFSection;

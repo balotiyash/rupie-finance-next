@@ -3,7 +3,7 @@
  * Author: Yash Balotiya
  * Description: Impact Card component for displaying user information
  * Created on: 24/08/2025
- * Last Modified: 04/10/2025
+ * Last Modified: 07/11/2025
 */
 
 // Importing required modules & libraries
@@ -58,6 +58,7 @@ const ImpactCard = ({ name, role, image, description }: ImpactCardProps) => {
             </p>
         </div>
     );
-}
+};
 
+// Exporting Impact Card Component
 export default ImpactCard;

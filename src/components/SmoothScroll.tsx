@@ -3,7 +3,7 @@
  * Author: Yash Balotiya
  * Description: Smooth scrolling component using Lenis. This is the main component for smooth scrolling.
  * Created on: 20/08/2025
- * Last Modified: 20/08/2025
+ * Last Modified: 07/11/2025
 */
 
 "use client";
@@ -14,7 +14,7 @@ import Lenis from "@studio-freight/lenis";
 import { PropsWithChildren } from "react";
 
 // SmoothScroll component
-export default function SmoothScroll({ children }: PropsWithChildren) {
+const SmoothScroll = ({ children }: PropsWithChildren) => {
     // Initializing Lenis for smooth scrolling
     useEffect(() => {
         // Creating a new instance of Lenis
@@ -36,4 +36,7 @@ export default function SmoothScroll({ children }: PropsWithChildren) {
 
     // Rendering children
     return <>{children}</>;
-}
+};
+
+// Exporting SmoothScroll component
+export default SmoothScroll;

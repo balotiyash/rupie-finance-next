@@ -3,7 +3,7 @@
  * Author: Yash Balotiya
  * Description: CIBIL Check Section.
  * Created on: 24/08/2025
- * Last Modified: 24/08/2025
+ * Last Modified: 07/11/2025
 */
 
 // Importing required modules & Libraries
@@ -26,6 +26,7 @@ const CheckCibilSection = () => {
             </div>
         </section>
     );
-}
+};
 
+// Exporting CIBIL Check Section Component
 export default CheckCibilSection;

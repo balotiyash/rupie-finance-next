@@ -3,7 +3,7 @@
  * Author: Yash Balotiya
  * Description: This file contains the styles for the Contact page.
  * Created on: 04/10/2025
- * Last Modified: 04/10/2025
+ * Last Modified: 07/11/2025
 */
 
 /* Main Container */
@@ -109,8 +109,10 @@
 }
 
 /* Remove spinner from input number */
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
+/* input[type=number]::-webkit-inner-spin-button, */
+/* input[type=number]::-webkit-outer-spin-button { */
+#phoneNumber::-webkit-inner-spin-button,
+#phoneNumber::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
