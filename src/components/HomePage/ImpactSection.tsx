@@ -3,7 +3,7 @@
  * Author: Yash Balotiya
  * Description: Impact Section component for displaying the impact of the organization.
  * Created on: 24/08/2025
- * Last Modified: 07/11/2025
+ * Last Modified: 15/11/2025
  */
 
 "use client";
@@ -107,7 +107,7 @@ const ImpactSection = () => {
         // Impact Section Container
         <section className={styles.container}>
             {/* Section Title */}
-            <h2>Our <span className={styles.highlight}>Impact</span></h2>
+            <h2>Our <span className={styles.highlight}>Impacts</span></h2>
 
             {/* Slider Component */}
             <Slider 

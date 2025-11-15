@@ -3,7 +3,7 @@
  * Author: Yash Balotiya
  * Description: Loan Card component for displaying loan options.
  * Created on: 20/08/2025
- * Last Modified: 07/11/2025
+ * Last Modified: 15/11/2025
 */
 
 // Importing required modules & Libraries
@@ -33,7 +33,7 @@ const LoanCard: React.FC<LoanCardProps> = ({ image, title, description }) => {
             <p className={styles.loanDescription}>{description}</p>
 
             {/* Get Loan Button */}
-            <Link href="/loans" className={styles.getLoanButton}>Get Loan</Link>
+            <Link href="/loans" className={styles.getLoanButton}>Know More</Link>
         </div>
     );
 };

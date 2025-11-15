@@ -1,0 +1,20 @@
+/** 
+ * File: src/app/loans/page.module.css
+ * Author: Yash Balotiya
+ * Description: This file contains the styles for the Loans page.
+ * Created on: 15/11/2025
+ * Last Modified: 15/11/2025
+*/
+
+/* Main Container */
+.main {
+    margin: 150px 0;
+}
+
+.title {
+    margin-bottom: 0;
+}
+
+.title span {
+    color: #4A8350;
+}

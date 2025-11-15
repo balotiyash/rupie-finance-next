@@ -3,7 +3,7 @@
  * Author: Yash Balotiya, Neha Balotia
  * Description: This file contains the TypesSection component. It contains types of loan.
  * Created on: 20/08/2025
- * Last Modified: 07/11/2025
+ * Last Modified: 15/11/2025
 */
 
 // Importing require modules & libraries
@@ -21,14 +21,14 @@ const TypesSection = () => {
 
             {/* Types of Loans Div */}
             <div className={styles.typesContainer}>
-                {/* Personal Loan */}
-                <LoanCard image='/images/personal-loan.png' title='Personal Loan' description='Get a personal loan with low interest rates.' />
-
                 {/* Business Loan */}
                 <LoanCard image='/images/business-loan.png' title='Business Loan' description='Get a business loan with low interest rates.' />
 
                 {/* Two-Wheeler Loan */}
-                <LoanCard image='/images/vehicle-loan.png' title='Vehicle Loan' description='Get a two-wheeler loan with low interest rates.' />
+                <LoanCard image='/images/bike.jpg' title='Vehicle Loan' description='Get a two-wheeler loan with low interest rates.' />
+
+                {/* Personal Loan */}
+                <LoanCard image='/images/personal-loan.png' title='Personal Loan' description='Get a personal loan with low interest rates.' />
             </div>
         </section>
     );

@@ -1,0 +1,119 @@
+/** 
+ * File: src/components/LoansPage/LoanCard.module.css
+ * Author: Yash Balotiya
+ * Description: This file contains the styles for the Loan Card component on the Loans page.
+ * Created on: 15/11/2025
+ * Last Modified: 15/11/2025
+*/
+
+/* Loan Card */
+.loanCard {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Side Section */
+.side {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/* Loan Title */
+.title {
+    color: #4A8350;
+}
+
+/* Description */
+.description {
+    font-size: 16px;
+    color: #555;
+    margin: 8px 0;
+}
+
+/* Loan Features Title */
+.bold {
+    color: #39C260;
+}
+
+/* Loan Features List */
+.list {
+    list-style: inside;
+    padding-left: 20px;
+    color: #555;
+    margin: 12px 0;
+}
+
+/* Apply Now Button */
+.button {
+    padding: 10px 20px;
+    background-color: #4A8350;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    width: 50%;
+}
+
+.button:hover {
+    background-color: #3b6a40;
+}
+
+/* Reverse layout */
+.reverse {
+    flex-direction: row-reverse;
+    padding: 0 100px;
+}
+
+/* Responsive */
+@media (max-width: 1300px) {
+    .reverse {
+        padding: 0 50px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .loanCard {
+        width: 90%;
+    }
+
+    .reverse {
+        padding: 0;
+    }
+}
+
+@media (max-width: 800px) {
+    .loanCard {
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+
+    .side {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        margin: 10px 0;
+        gap: 20px;
+    }
+
+    .side img {
+        width: 80%;
+    }
+
+    .list {
+        text-align: left;
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .side img {
+        width: 100%;
+    }    
+}

@@ -3,16 +3,11 @@
  * Author: Yash Balotiya
  * Description: This file contains the styles for the Contact page.
  * Created on: 04/10/2025
- * Last Modified: 07/11/2025
+ * Last Modified: 15/11/2025
 */
 
 /* Main Container */
 .main {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     margin: 150px 0;
 }
 

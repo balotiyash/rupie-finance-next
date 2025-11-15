@@ -3,7 +3,7 @@
  * Author: Yash Balotiya
  * Description: Navbar component for the application.
  * Created on: 19/08/2025
- * Last Modified: 07/11/2025
+ * Last Modified: 15/11/2025
 */
 
 "use client";
@@ -22,6 +22,7 @@ const Navbar = () => {
     const links = [
         { href: "/", label: "Home" },
         { href: "/loans", label: "Loans" },
+        { href: "/calculator", label: "Calculator" },
         { href: "/about", label: "About" },
         { href: "/contact", label: "Contact" },
     ];

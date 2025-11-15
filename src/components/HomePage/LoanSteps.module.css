@@ -3,7 +3,7 @@
  * Author: Yash Balotiya, Neha Balotia
  * Description: Styles for the loan steps component
  * Created on: 24/08/2025
- * Last Modified: 07/11/2025
+ * Last Modified: 15/11/2025
 */
 
 /* Container for the loan steps */
@@ -28,6 +28,7 @@
 #rupieFinanceH1 {
     color: #4A8350;
     font-size: 3rem;
+    text-align: center;
 }
 
 /* Description styles */
